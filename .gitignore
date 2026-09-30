@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+results/
+*.parquet
+*.ndpi
+*.ndpa
+*.csv
+!samples_example.csv
