@@ -16,8 +16,8 @@ The alignment is fully automatic and uses only tissue shape. The H&E and the Xen
 ## Installation
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/dehaayy/he2xenium.git
+cd he2xenium
 pip install -r requirements.txt
 ```
 
@@ -193,3 +193,6 @@ awg.apply_affine_to_df(transcripts, T, in_cols=("x_location", "y_location"))
 - **Wrong sample:** check `sample_detection.png` and pass the correct `--location`. If sections touch, set `--sample-count`.
 - **Poor alignment:** look at `alignment_qc.png`. The Chamfer distances and the cumulative-error curve should improve clearly over "before". Try a larger `--population` or `--generations`, and check `ga_results.csv` for frequent failure reasons.
 - **Transform model:** it covers rotation, uniform scale and translation only. It cannot correct mirrored sections or strong non-rigid tissue deformation.
+## Author
+
+Developed by Deha Ay.
