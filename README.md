@@ -196,3 +196,5 @@ awg.apply_affine_to_df(transcripts, T, in_cols=("x_location", "y_location"))
 ## Author
 
 Developed by Deha Ay.
+
+A worked example (notebook and sample table) is in [`example_run/`](example_run/).
