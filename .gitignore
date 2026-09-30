@@ -8,3 +8,4 @@ results/
 *.ndpa
 *.csv
 !samples_example.csv
+!examples/*.csv
